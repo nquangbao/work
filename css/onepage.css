@@ -2694,8 +2694,11 @@ Table Of Content
      }
  }
  
- @media screen and (max-width: 479px) {
+ @media screen and (minx-width: 479px) {
      #main-navigation {
          top: 0;
+     }
+     .pricing_box1_wrapper {
+         width: 100%;
      }
  }
