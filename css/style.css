@@ -47,12 +47,12 @@
                     }
                     
                     .wrap_bottom {
-                        max-width: 1380px;
+                        min-width: 1380px;
                         margin: 0 auto;
                     }
                     
                     .wrap_bottom {
-                        max-width: 1380px;
+                        mai-width: 1380px;
                         margin: 0 auto;
                     }
                     
@@ -789,5 +789,32 @@
                     }
                     
                     .pricing_box1_wrapper {
-                        height: 85em;
+                        min-height: 85em;
                     }
+                    @media screen and (min-width: 479px) {
+                        #main-navigation {
+                            top: 0;
+                        }
+                        
+                    }
+                    /* @media  screen and (min-width: 100px){
+                        
+                        .pricing_box1_wrapper {
+                            width: 100%;
+                        }
+                    } */
+                    /* @media only screen and (min-width: 600px) {
+                        .pricing_box1_wrapper {
+                            width: 100%;
+                    } */
+                    @media  screen and (max-width: 768px) {
+                        .pricing_box1_wrapper {
+                            width: 100%;
+                            /* min-height: 100em; */
+                    }
+                }
+                @media  screen and (max-width: 1200px) {
+                    .pricing_box1_wrapper {
+                        min-height: 100em;
+                    }
+            }
