@@ -7,7 +7,9 @@
                         width: 100%;
                         font-size: 16px;
                     }
-                    
+                    .navbar ul li a.page-scroll {
+                        font-size: 15px;
+                    }
                     .bottom_support {
                         height: 45px;
                         width: 100%;
