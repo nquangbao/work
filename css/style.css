@@ -5,7 +5,7 @@
                         padding: 0;
                         height: 100%;
                         width: 100%;
-                        font-size: 14px;
+                        font-size: 16px;
                     }
                     
                     .bottom_support {
@@ -203,7 +203,7 @@
                         margin-bottom: 20px;
                         color : #fff
                     }
-                    .row align-items-center p , .h4-support {
+                    .request-txt p , .h4-support {
                         color : #fff;
                     }
                     .request-txt h4 {
@@ -812,10 +812,13 @@
                         }
                             
                     }
-                }
+                
                 @media  screen and (max-width: 1200px) {
                     .pricing_box1_wrapper {
                         min-height: 100em;
+                    }
+                    ul.item-detail li.aos-init  {
+                        width:100%;
                     }
             }
             #tuvan {
