@@ -201,13 +201,17 @@
                     .request-txt h5 {
                         font-size: 22px;
                         margin-bottom: 20px;
+                        color : #fff
                     }
-                    
+                    .row align-items-center p , .h4-support {
+                        color : #fff;
+                    }
                     .request-txt h4 {
                         font-size: 30px;
                         font-weight: 700;
                         margin-bottom: 25px;
                         text-transform: uppercase;
+                        color : #fff
                     }
                     
                     .margin-bottom-20 {
@@ -797,24 +801,23 @@
                         }
                         
                     }
-                    /* @media  screen and (min-width: 100px){
-                        
-                        .pricing_box1_wrapper {
-                            width: 100%;
-                        }
-                    } */
-                    /* @media only screen and (min-width: 600px) {
-                        .pricing_box1_wrapper {
-                            width: 100%;
-                    } */
+                   
                     @media  screen and (max-width: 768px) {
                         .pricing_box1_wrapper {
                             width: 100%;
                             /* min-height: 100em; */
+                    }
+                        .home__support .cate__items .item-detail li {
+                            width: 50%;
+                        }
+                            
                     }
                 }
                 @media  screen and (max-width: 1200px) {
                     .pricing_box1_wrapper {
                         min-height: 100em;
                     }
+            }
+            #tuvan {
+                background-image: url(../images/work.jpg );
             }
