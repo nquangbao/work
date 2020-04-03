@@ -373,7 +373,7 @@
                     }
                     
                     .home__support .cate__items {
-                        display: flex;
+                        
                         flex-wrap: wrap;
                         margin: 0 -10px 40px;
                     }
