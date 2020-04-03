@@ -160,15 +160,7 @@ jQuery(function($) {
 
 
     //For Testinomial 
-    $("#testinomial-slider").owlCarousel({
-        autoPlay: true,
-        navigation: true,
-        slideSpeed: 250,
-        pagination: false,
-        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        singleItem: true
-
-    });
+   
 
 
     //For Publication Section(Home Page)
@@ -182,14 +174,18 @@ jQuery(function($) {
         itemsDesktopSmall: [979, 3]
 
     });
-    //Paralax Page Slider
-    var owl = $("#paralax-slider");
-    owl.owlCarousel({
-        autoPlay: 3000,
+    $("#publication-slider2").owlCarousel({
+        autoPlay: true,
+        pagination: false,
+        navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         navigation: false,
-        singleItem: true,
-        transitionStyle: "fade"
+        items: 5,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [979, 3]
+
     });
+    //Paralax Page Slider
+ 
 
 
     // portfolio filtering

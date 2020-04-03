@@ -116,6 +116,7 @@ Table Of Content
  h4,
  #testinomial-slider .item h5 {
      margin: 0;
+     font-weight: 600;
  }
  
  h1 {
@@ -125,8 +126,8 @@ Table Of Content
  h2,
  h3,
  h4 {
-     text-transform: capitalize;
-     font-family: "raleway";
+     padding : 10px 0;
+     
  }
  
  h2 {
@@ -1313,7 +1314,7 @@ Table Of Content
  /* ------------  Our Creative Thinkers ------------  */
  
  #thinkers .thinker-wrap img,
- #publication-slider .item .image img {
+ #publication-slider .item .image img, #publication-slider2 .item .image img {
      width: 100%;
      -moz-transition: all .2s linear;
      -ms-transition: all .2s linear;
@@ -1386,7 +1387,7 @@ Table Of Content
  }
  
  .thinker-wrap:hover .thinker-image img,
- #publication-slider .item:hover .image img {
+ #publication-slider .item:hover .image img,#publication-slider2 .item:hover .image img {
      transform: scale(1.05);
      -webkit-transition: all 0.3s ease-in-out;
      -moz-transition: all 0.3s ease-in-out;
@@ -1782,7 +1783,23 @@ Table Of Content
      opacity: 1;
      filter: alpha(opacity=100);
  }
- 
+ #testinomial-slider .owl-prev,
+ #testinomial-slider .owl-next,
+ #publication-slider2 .owl-prev,
+ #publication-slider2 .owl-next {
+     top: 40%;
+     position: absolute;
+     background: transparent;
+     height: 38px;
+     width: 38px;
+     -ms-border-radius: 38px;
+     -webkit-border-radius: 38px;
+     border-radius: 38px;
+     font-size: 30px;
+     line-height: 20px;
+     opacity: 1;
+     filter: alpha(opacity=100);
+ }
  #testinomial-slider .owl-prev:hover,
  #testinomial-slider .owl-next:hover,
  #publication-slider .owl-prev:hover,
@@ -1810,8 +1827,10 @@ Table Of Content
  #publication-slider .item {
      margin: 0 15px;
  }
- 
- #publication-slider .item:hover {
+ #publication-slider2 .item {
+    margin: 0 15px;
+}
+ #publication-slider .item, #publication-slider2 .item:hover{
      cursor: pointer;
  }
  
@@ -1820,13 +1839,21 @@ Table Of Content
      position: relative;
      width: 100%;
  }
- 
+ #publication-slider2 .item .image {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
  #publication-slider .item>img {
      display: block;
      width: 100%;
      height: auto;
  }
- 
+ #publication-slider2 .item>img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
  #publication-slider .item h5 {
      font-size: 14px;
      color: #727272;
