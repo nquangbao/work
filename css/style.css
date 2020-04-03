@@ -191,15 +191,14 @@
                     }
                     
                     .align-items-center {
-                        -ms-flex-align: center!important;
+                        z-index : 9999999;
                         align-items: center!important;
                     }
                     
                     #request-form {
                         background: #f8f9fb;
                         padding: 25px;
-                        -webkit-border-radius: 6px;
-                        -moz-border-radius: 6px;
+                        
                         border-radius: 6px;
                         color: #333;
                     }
@@ -524,7 +523,7 @@
                     }
                     
                     .sw_pricing_wrapper {
-                        float: left;
+                        
                         width: 100%;
                         padding-top: 62px;
                         background: #f6fbff;
@@ -827,7 +826,7 @@
             }
             #tuvan {
                 background-image: url(../images/work.jpg );
-                z-index:1;
+                z-index:99999999999999999999999;
             }
             .title {
                 display : inline;
