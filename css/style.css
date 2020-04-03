@@ -332,18 +332,17 @@
                     div.magin30 p,
                     div.canvas-box p {
                         line-height: 1.2em;
-                        font-size: 16px;
+                        font-size: 18px;
                     }
                     
                     div.box-shadow {
-                        border-radius: 6px 20px 6px 6px;
-                        box-shadow: 0 0 15px 0 rgba(90, 90, 90, .15);
+                        border-radius: 6px 100px 6px 6px;
+                        -webkit-box-shadow: -6px 13px 26px -12px rgba(0,0,0,0.75);
+                        -moz-box-shadow: -6px 13px 26px -12px rgba(0,0,0,0.75);
+                        box-shadow: -6px 13px 26px -12px rgba(0,0,0,0.75);
                     }
                     
-                    #py-4,
-                    .py-4 {
-                        padding-top: 27px;
-                    }
+                    
                     
                     #fix {
                         margin-bottom: 14px;
@@ -425,7 +424,9 @@
                         -moz-background-clip: padding;
                         -webkit-background-clip: padding-box;
                         background-clip: padding-box;
-                        box-shadow: 0 0 15px 0 rgba(90, 90, 90, .15);
+                        -webkit-box-shadow: -6px 13px 26px -12px rgba(0,0,0,0.75);
+                        -moz-box-shadow: -6px 13px 26px -12px rgba(0,0,0,0.75);
+                        box-shadow: -6px 13px 26px -12px rgba(0,0,0,0.75);
                         height: 100%;
                         padding: 10px ;
                     }
@@ -828,8 +829,10 @@
                 background-image: url(../images/work.jpg );
                 z-index:99999999999999999999999;
             }
-            .title {
-                display : inline;
+            .heading,.title {
+                display : inline-block;
+                font-size : 30px;
+                margin-bottom: 30px;
             }
             div.height {
                 height: 200px;
