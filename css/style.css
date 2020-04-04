@@ -13,6 +13,7 @@
                     }
                     .container{
                         margin-right: 0;
+                        padding-right: 0;
                     }
                     .fix{
                         margin-right: auto;
@@ -369,6 +370,7 @@
                         -webkit-box-shadow: -8px 13px 11px -17px rgba(214,211,214,1);
                         -moz-box-shadow: -8px 13px 11px -17px rgba(214,211,214,1);
                         box-shadow: -8px 13px 11px -17px rgba(214,211,214,1);
+                        padding : 0;
                     }
                     
                     .home__support .cate__items li:not(.item-first) .cate__icon {
@@ -879,7 +881,7 @@
             }
             #tuvan {
                 background-image: url(../images/work.jpg );
-                z-index:99999999999999999999999;
+                
             }
             .heading,.title {
                 display : inline-block;
