@@ -98,7 +98,7 @@ jQuery(function($) {
 
     //Slider Main
     jQuery('.fullscreenbanner').revolution({
-        delay: 15000,
+        delay: 150,
         startwidth: 1170,
         startheight: 500,
         hideThumbs: 10,
@@ -186,7 +186,12 @@ jQuery(function($) {
     });
     //Paralax Page Slider
  
-
+    $('.box1_heading_wrapper').hover(function(){
+        $(this).find('.jp_pricing_label_wrapper').css('opacity' ,'1');
+    })
+    $('.box1_heading_wrapper').mouseout(function(){
+        $(this).find('.jp_pricing_label_wrapper').css('opacity' ,'0');
+    })
 
     // portfolio filtering
     $(".project-wrapper").mixItUp();

@@ -503,6 +503,7 @@ Table Of Content
  
  #main-navigation {
      position: absolute;
+     height: 200px;
  }
  
  #navigation.affix {
@@ -2567,7 +2568,7 @@ Table Of Content
          text-align: center;
      }
      #slogan p {
-         s font-size: 16px;
+          font-size: 16px;
      }
      #slogan a.pull-right {
          float: none !important;
@@ -2579,9 +2580,7 @@ Table Of Content
      h2 {
          font-size: 30px;
      }
-     #main-navigation {
-         background-color: #1b1d1f;
-     }
+    
      .navbar-brand,
      #navigation.affix .navbar-brand {
          display: inline-block;
